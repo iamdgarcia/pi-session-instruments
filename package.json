@@ -1,0 +1,32 @@
+{
+  "name": "pi-session-instruments",
+  "version": "0.1.0",
+  "description": "Session instruments for the pi coding agent: /paper (SOTA papers in context), turn-geometry (shape KPIs: calls, read:write, retries), /session-diff (compare parallel sessions). Zero deps.",
+  "license": "MIT",
+  "author": "Daniel Garcia Pena <info@iamdgarcia.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iamdgarcia/pi-session-instruments.git"
+  },
+  "keywords": [
+    "pi-package",
+    "pi-coding-agent",
+    "extension",
+    "observability",
+    "turn-geometry",
+    "arxiv",
+    "session-diff"
+  ],
+  "type": "module",
+  "pi": {
+    "extensions": [
+      "./paper-context.ts",
+      "./turn-geometry.ts",
+      "./session-diff.ts"
+    ]
+  },
+  "files": [
+    "*.ts",
+    "README.md"
+  ]
+}
